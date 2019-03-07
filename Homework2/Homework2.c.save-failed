@@ -1,0 +1,22 @@
+//Program that stores two inputs and prints the product, quotient
+//remainder, sum, and difference of the two inputs
+#include <stdio.h>
+
+int main()
+{
+    int userInt;
+    int nextInt;
+    //int number;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &userInt, &nextInt );
+
+
+    //Multiplication
+    int number=userInt*nextInt;
+    int number1=userInt/nextInt;
+    int number2=userInt+nextInt;
+    printf("%d * %d = %d\n", userInt, nextInt, number);
+    printf("%d / %d = %d\n", userInt, nextInt, number1);
+    printf("%d %% %d = %d\n", userInt, nextInt, userInt % nextInt );
+    printf("%d + %d = %d\n", userInt, nextInt, number2);
+}

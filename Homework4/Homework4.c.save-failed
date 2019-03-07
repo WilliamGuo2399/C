@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int addNumbers(int left, int right);
+
+int main()
+{
+    int x = 8, y = 8;
+    int returnValue = addNumbers(x, y);
+    returnValue = returnValue/2;
+    printf("The average of %d and %d is %d.\n", x, y, returnValue);
+}
+int addNumbers(int left, int right)
+{
+    int sum=(left+right)/2;
+    return (left + right)/2; return sum;
+}

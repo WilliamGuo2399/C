@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550538552 source:c:\users\william dell\documents\homework5\homework5.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
